@@ -5,4 +5,4 @@ SLOT_LABEL = ['PAD', 'UNK', 'O', 'B-location', 'I-location', 'B-velocity', 'I-ve
 
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
-SL_MODEL_PATH = './model/JointIDSF_PhoBERTencoder/4e-5/0.15/100'
+SL_MODEL_PATH = './app/SlotFilling/JointIDSF_PhoBERTencoder/4e-5/0.15/100'
